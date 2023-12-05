@@ -49,7 +49,7 @@ const BasicInfoForm = ({ onNext }) => {
 
   return (
     <form className="form-container" onSubmit={handleSubmit}>
-      <div className="step-indicator">STEP1</div>
+      <div className="step-indicator"> STEP1 </div>
       <div className="form-section">
         <h1>お客様の情報を入力してください</h1>
         <div className="form-group">

@@ -21,7 +21,7 @@ const SurveyForm = ({ onBack, onNext }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="step-indicator">STEP2</div>
+      <div >STEP2</div>
       <div><h1>以下にお答えください</h1></div>
       {questions.map((question, index) => (
         <div key={index}>
